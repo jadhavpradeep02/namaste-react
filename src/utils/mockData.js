@@ -61,4 +61,21 @@ const restaurantList = [
     }
 ];
 
+export const restaurantDetail = [{
+    name: "River side",
+    cuisines: ["Indian", "Chinese", "Italian", "North Indian", "Mexican"],
+    costForTwoMessage: "Rs. 500",
+    categories: [{
+        "title": "Recommended options in Cafe",
+        "card": {
+            data: [{
+                "name": "Veg Biryani",
+                "price": "Rs. 150",
+                "description": "The veg biryani is super here, delicious and tasty.",
+                "imageId": "3krhgtwcZr7nGROtEYJgzdQgOkd20APK"
+            }]
+        }
+    }]
+}];
+
 export default restaurantList;
